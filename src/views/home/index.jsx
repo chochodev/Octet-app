@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Hero from './s1_hero';
 import JoinUs from './s2_joinus';
 
