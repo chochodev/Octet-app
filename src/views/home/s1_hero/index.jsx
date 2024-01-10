@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Hero = (props) => {
+const Hero = () => {
   return (
     <div>
-      <h2>{props.h2}</h2>
+      <h2>Hero</h2>
     </div>
   )
 }
