@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <div>Hero</div>
+    <div>
+      <h2>{props.h2}</h2>
+    </div>
   )
 }
 
