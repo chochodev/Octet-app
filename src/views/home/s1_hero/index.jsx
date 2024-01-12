@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Hero = () => {
+const Home = (props) => {
   return (
     <div>
-      <h2>Hero</h2>
+      <h2>{props.title}</h2>
     </div>
   )
 }
 
-export default Hero
+Home.defaultProps = {
+  title: 'Home',
+  style: ''
+};
+
+export default Home;

@@ -6,14 +6,14 @@ import JoinUs from './s2_joinus';
 
 const Home = () => {
   return (
-    <>
+    <div className='relative'>
     <Navbar />
     <div>
       <Hero />
       <JoinUs />
     </div>
     <Footer />
-    </>
+    </div>
   )
 }
 
