@@ -27,12 +27,12 @@ const Roadmap = (props) => {
   ]
 
   return (
-    <div className='relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] '>
+    <div className={`relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
       <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>{props.title}</h2>
-      <div className="grid grid-cols-2 justify-evenly gap-y-[2rem] w-full">
-        <div className="relative flex flex-col justify-self-center gap-[1.5rem] bg-white/10 max-w-[32.8125rem] p-[2.5rem] rounded-[2rem] ">
-          <h2 className='text-[2rem] font-bold '>Decentralized Security Backbone</h2>
-          <p className="text text-[1.5rem] ">The OCT chain serves as the decentralized backbone of the OCTET ecosystem, reducing reliance on centralized entities. This commitment to decentralization enhances security by minimizing the risk of single points of failure and fostering a distributed and resilient cyber security infrastructure.</p>
+      <div className="grid lg:grid-cols-2 justify-evenly gap-y-[2rem] gap-[5%] w-full">
+        <div className="relative flex flex-col justify-self-center gap-[1.5rem] bg-white/10 max-w-[32.8125rem] p-[1.25rem] md:p-[2.5rem] rounded-[2rem] ">
+          <h2 className='text-[1.5rem] sm:text-[1.875rem] xl:text-[2rem] font-bold '>Decentralized Security Backbone</h2>
+          <p className="text-[1.05rem] xl:text-[1.5rem] ">The OCT chain serves as the decentralized backbone of the OCTET ecosystem, reducing reliance on centralized entities. This commitment to decentralization enhances security by minimizing the risk of single points of failure and fostering a distributed and resilient cyber security infrastructure.</p>
           <img src="./assets/images/ring-2.png" alt="RING" className='absolute top-[-1.25rem] left-[-1.25rem] h-[4rem] w-[4rem] object-contain opacity-[50%] ' />
           <img src="./assets/images/ring.png" alt="RING" className='absolute top-[-1.25rem] left-[-1.25rem] h-[4rem] w-[4rem] object-contain opacity-[50%] ' />
         </div>
@@ -40,8 +40,8 @@ const Roadmap = (props) => {
         {items.map((item, index) => {
           return (
             <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] bg-white/10 max-w-[32.8125rem] p-[2.5rem] rounded-[2rem] ">
-              <h2 className='text-[2rem] font-bold '>{item.title}</h2>
-              <p className="text-[1.5rem] " dangerouslySetInnerHTML={{ __html: item.text }} />
+              <h2 className='text-[1.5rem] sm:text-[1.875rem] xl:text-[2rem] font-bold '>{item.title}</h2>
+              <p className="text-[1.05rem] xl:text-[1.5rem] " dangerouslySetInnerHTML={{ __html: item.text }} />
             </div>
           )
         })}
