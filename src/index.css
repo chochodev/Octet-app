@@ -1,14 +1,13 @@
 @font-face {
-  font-family: 'YourFontName';
-  src: local('YourFontName'), url('assets/fonts/circular_std_font.otf') format('woff2'); /* adjust the URL accordingly */
-  font-weight: 300; /* specify font weight if needed */
-  font-style: normal; /* specify font style if needed */
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url('assets/fonts/circular_std_font.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   --main-font: 'Montserrat', sans-serif;
