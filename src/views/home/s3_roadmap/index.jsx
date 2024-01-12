@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Roadmap = (props) => {
   const padding_style = 'px-[1.25rem] sm:px-[2.5rem] md:px-[3.5rem] lg:px-[3.5rem] xl:px-[5rem] 2xl:px-[7.5rem]';
