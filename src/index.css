@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'YourFontName';
+  src: local('YourFontName'), url('assets/fonts/circular_std_font.otf') format('woff2'); /* adjust the URL accordingly */
+  font-weight: 300; /* specify font weight if needed */
+  font-style: normal; /* specify font style if needed */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
