@@ -13,11 +13,11 @@ module.exports = {
     },
     colors: {
       'background': '#000A2F',
-      'primary': '#0055B3',
+      'primary': '#FFFFFF',
 
-      'secondary-light': '#52d660',
-      'secondary': '#2ECC40',
-      'secondary-dim': '#175020',
+      'secondary-light': '#4D58A3',
+      'secondary': '#BD34CF',
+      'secondary-dim': '#A648FE',
       'secondary-dark': '#072C0D',
 
       'tertiary': '#FF4136',
