@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='relative'>
     <Navbar />
-    <div>
+    <div className='px-[1.25rem] sm:px-[2.5rem] md:px-[5rem] xl:px-[7.5rem]'>
       <Hero />
       <JoinUs />
     </div>
