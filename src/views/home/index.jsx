@@ -3,6 +3,7 @@ import Navbar from 'components/navbar';
 import Footer from 'components/footer';
 import Hero from './s1_hero';
 import JoinUs from './s2_joinus';
+import Roadmap from './s3_roadmap';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <div className='w-full '>
       <Hero />
       <JoinUs />
+      <Roadmap />
     </div>
     <Footer />
     </div>
