@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'CircularStd';
-  src: url('./fonts/circular_std_font.otf') format('otf');
+  src: url('./fonts/circular_std_font.otf');
+}
+
+@font-face {
+  font-family: 'CIRCULAR';
+  src: url('./fonts/circular/CircularStd-Black.woff2');
 }
 
 @tailwind base;
