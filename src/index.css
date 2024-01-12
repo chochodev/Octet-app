@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap');
+
 @font-face {
   font-family: 'CircularStd';
   src: url('./fonts/circular_std_font.otf');
@@ -13,7 +15,8 @@
 @tailwind utilities;
 
 :root {
-  --main-font: 'CircularStd', sans-serif;
+  --main-font: 'CIRCULAR', 'CircularStd', sans-serif;
+  --primary-font: 'Bricolage Grotesque', sans-serif;
 }
 
 * {
@@ -30,7 +33,8 @@
 }
 
 h1, h2, h3, h4, h5, h6, p, span, small, li {
-  color: #ffffff;
+  /* color: #ffffff; */
+  font-weight: 800;
 }
 
 a, button, .icon, img {
