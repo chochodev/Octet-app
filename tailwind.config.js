@@ -21,7 +21,10 @@ module.exports = {
       'secondary-dark': '#072C0D',
 
       'tertiary': '#FF4136',
-      'tertiary2': '#AAAAAA'
+      'tertiary2': '#AAAAAA',
+
+      'white': '#FFFFFF',
+      'black': '#000000'
     },
     
   },

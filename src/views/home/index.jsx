@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from 'components/navbar';
+import Footer from 'components/footer';
 import Hero from './s1_hero';
 import JoinUs from './s2_joinus';
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <JoinUs />
     </div>
+    <Footer />
     </>
   )
 }
