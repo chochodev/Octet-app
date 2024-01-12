@@ -3,7 +3,10 @@ This is just the landing page to octet-app
 The UI/UX was given to me in desktop, I'm to develop it 
 
 ## Built using:
+- React
 
+## Styled with:
+- Tailwindc
 
 ## Available Scripts
 
