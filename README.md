@@ -6,7 +6,7 @@ The UI/UX was given to me in desktop, I'm to develop it
 - React
 
 ## Styled with:
-- Tailwindc
+- Tailwindcss
 
 ## Available Scripts
 
