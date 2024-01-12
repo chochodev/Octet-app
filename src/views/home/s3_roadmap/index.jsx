@@ -17,7 +17,7 @@ const Roadmap = (props) => {
       text: 'Octet’s road map includes global expansion and strategic business partnerships. This commitment to reaching a global audience and collaborating with industry leaders cyber security positions Octet as a key player in the international landscape of decentralized cyber security solutions.'
     },
     {
-      title: '',
+      title: 'Incentivized User Participation',
       text: ''
     },
     {
