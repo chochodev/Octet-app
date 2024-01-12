@@ -1,5 +1,5 @@
 # OCTET-APP Landing Page
-This is ju
+This is just the 
 
 ## Available Scripts
 
