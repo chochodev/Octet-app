@@ -2,6 +2,9 @@
 This is just the landing page to octet-app 
 The UI/UX was given to me in desktop, I'm to develop it 
 
+## Built using:
+
+
 ## Available Scripts
 
 In the project directory, you can run:
