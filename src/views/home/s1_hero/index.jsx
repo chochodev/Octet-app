@@ -18,7 +18,7 @@ const Hero = () => {
       <img src="./assets/images/hero-image-1.png" alt="HERO" className='xl:absolute z-[1] right-0 h-auto xl:h-[30.25rem] w-[90%] xl:w-[30.25rem] max-w-[40rem] object-cover' />
       <div className="flex flex-col justify-center items-center gap-[2rem] w-full mt-[3.8125rem]">
         <h2 className='text-[2rem] font-semibold'>Our Partners</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[2.5rem]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[2.5rem]">
           <img src="./assets/images/partner-1.png" alt="Partner" className='h-[5rem] w-[14.2925rem] rounded-[16px] object-cover' />
           <img src="./assets/images/partner-2.png" alt="Partner" className='h-[5rem] w-[14.2925rem] rounded-[16px] object-cover' />
           <img src="./assets/images/partner-3.png" alt="Partner" className='h-[5rem] w-[14.2925rem] rounded-[16px] object-cover' />
