@@ -4,6 +4,7 @@ import Footer from 'components/footer';
 import Hero from './s1_hero';
 import JoinUs from './s2_joinus';
 import Roadmap from './s3_roadmap';
+import HowToGet from './howtoget';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <JoinUs />
       <Roadmap />
+      <HowToGet />
     </div>
     <Footer />
     </div>
