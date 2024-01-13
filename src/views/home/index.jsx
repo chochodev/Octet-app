@@ -5,6 +5,7 @@ import Hero from './s1_hero';
 import JoinUs from './s2_joinus';
 import Roadmap from './s3_roadmap';
 import HowToGet from './s4_howtoget';
+import Tokenomic from './s5_tokenomic';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <JoinUs />
       <Roadmap />
       <HowToGet />
+      <Tokenomic />
     </div>
     <Footer />
     </div>
