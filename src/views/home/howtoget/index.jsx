@@ -10,7 +10,7 @@ const HowToGet = () => {
     },
     {
       title: '2',
-      text: 'When normal data is confirmed, Octet <br/>compensation tokens are provided to inspection users.'
+      text: 'When normal data is confirmed, Octet compensation tokens are provided to inspection users.'
     },
     {
       title: '3',
@@ -24,14 +24,14 @@ const HowToGet = () => {
 
   return (
     <div className={`relative pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
-      <div className="flex flex-col items-center gap-[4rem] w-full rounded-[32px] " style={{borderImage: 'linear-gradient(to right, #E565A0, #A648FE)', borderWidth: '1px', borderStyle: 'solid'}}>
-        <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>Here is how to <span className='text-secondary-dim'>OCTET</span> circulates</h2>
+      <div className="flex flex-col items-center gap-[4rem] md:gap-[6.25rem] w-full rounded-[32px] border-solid border-[1px] border-secondary-dim py-[4rem] px-[5%] md:px-[15%] ">
+        <h2 className='relative z-[2] text-[1.5rem] sm:text-[2rem] md:text-[3rem] text-center font-bold'>Here is how to <span className='text-secondary-dim'>OCTET</span> circulates</h2>
         <div className="grid lg:grid-cols-2 lg:justify-evenly gap-y-[3rem] gap-[5%] w-full">
           {items.map((item, index) => {
             return (
               <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] max-w-[32.8125rem] ">
                 <div className="flex items-center justify-center py-[.5rem] px-[1rem] rounded-[99rem] bg-white w-[3rem] h-[3rem] ">
-                  <h2 className='text-[1.5rem] text-background sm:text-[1.875rem] xl:text-[2rem] font-bold '>{item.title}</h2>
+                  <h2 className='text-[1.5rem] text-background sm:text-[1.875rem] xl:text-[2rem] '>{item.title}</h2>
                 </div>
                 <p className="text-[1.05rem] xl:text-[1.5rem] " dangerouslySetInnerHTML={{ __html: item.text}} />
               </div>
