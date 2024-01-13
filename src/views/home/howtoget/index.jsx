@@ -10,7 +10,7 @@ const HowToGet = (props) => {
     },
     {
       title: '2',
-      text: 'When normal data is confirmed, Octet compensation tokens are provided to inspection users.'
+      text: 'When normal data is confirmed, Octet <br/>compensation tokens are provided to inspection users.'
     },
     {
       title: '3',
@@ -23,15 +23,17 @@ const HowToGet = (props) => {
   ]
 
   return (
-    <div className={`relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
-      <div className="flex">
+    <div className={`relative pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
+      <div className="flex flex-col items-center gap-[4rem] w-full">
         <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>{props.title}</h2>
-        <div className="grid lg:grid-cols-2 justify-evenly gap-y-[2rem] gap-[5%] w-full">
+        <div className="grid lg:grid-cols-2 lg:justify-evenly gap-y-[2rem] gap-[5%] w-full">
           {items.map((item, index) => {
             return (
-              <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] max-w-[32.8125rem] p-[2.5rem] ">
-                <h2 className='text-[1.5rem] text-background sm:text-[1.875rem] xl:text-[2rem] font-bold rounded-[99rem] bg-white '>{item.title}</h2>
-                <p className="text-[1.05rem] xl:text-[1.5rem] " >{item.text}</p>
+              <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] max-w-[32.8125rem] ">
+                <div className="flex items-center justify-center py-[.5rem] px-[1rem] rounded-[99rem] bg-white w-[3rem] h-[3rem] ">
+                  <h2 className='text-[1.5rem] text-background sm:text-[1.875rem] xl:text-[2rem] font-bold '>{item.title}</h2>
+                </div>
+                <p className="text-[1.05rem] xl:text-[1.5rem] " dangerouslySetInnerHTML={{ __html: item.text}} />
               </div>
             )
           })}
