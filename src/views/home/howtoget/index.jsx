@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HowToGet = (props) => {
+const HowToGet = () => {
   const padding_style = 'px-[1.25rem] sm:px-[2.5rem] md:px-[3.5rem] lg:px-[3.5rem] xl:px-[5rem] 2xl:px-[7.5rem]';
 
   const items = [
@@ -24,9 +24,9 @@ const HowToGet = (props) => {
 
   return (
     <div className={`relative pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
-      <div className="flex flex-col items-center gap-[4rem] w-full">
-        <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>{props.title}</h2>
-        <div className="grid lg:grid-cols-2 lg:justify-evenly gap-y-[2rem] gap-[5%] w-full">
+      <div className="flex flex-col items-center gap-[4rem] w-full rounded-[32px] " style={{borderImage: 'linear-gradient(to right, #E565A0, #A648FE)', borderWidth: '1px', borderStyle: 'solid'}}>
+        <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>Here is how to <span className='text-secondary-dim'>OCTET</span> circulates</h2>
+        <div className="grid lg:grid-cols-2 lg:justify-evenly gap-y-[3rem] gap-[5%] w-full">
           {items.map((item, index) => {
             return (
               <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] max-w-[32.8125rem] ">
@@ -42,10 +42,5 @@ const HowToGet = (props) => {
     </div>
   )
 }
-
-HowToGet.defaultProps = {
-  title: 'HowToGet',
-  style: ''
-};
 
 export default HowToGet;
