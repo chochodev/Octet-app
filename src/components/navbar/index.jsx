@@ -12,7 +12,7 @@ const Navbar = () => {
       <div 
         className='relative z-[50] flex items-center justify-end lg:justify-center gap-[5rem] lg:gap-[20%] w-full py-[1.25rem] sm:py-[2rem] px-[5%] lg:px-[5rem] xl:px-[7.5rem]' 
         style={{
-          background: 'linear-gradient(to right, #2A2BB970 0%, transparent 20%, transparent 80%, #85216970 100%)'
+          background: 'linear-gradient(to right, #2A2BB9aa 0%, transparent 35%, transparent 65%, #852169aa 100%)'
         }}
       >
         <img src='./assets/images/logo.png' alt='LOGO' className='absolute left-[5%] xl:left-[7.5%] h-[5rem] w-[5rem] object-cover select-none' />
