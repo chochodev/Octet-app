@@ -35,6 +35,10 @@ const JoinUs = (props) => {
           </div>
         </div>
       </div>
+
+      {/* STAR EFFECTS */}
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute bottom-[10%] xl:bottom-[2%] left-[1%] xl:left-[1%] h-[1.5rem] w-[1.5rem] object-contain' />
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute z-[2] bottom-[30%] xl:bottom-[40%] left-[75%] h-[1.5rem] w-[1.5rem] object-contain' />
     </div>
   )
 }
