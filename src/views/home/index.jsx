@@ -10,7 +10,7 @@ import OctetApp from './s6_octetapp';
 
 const Home = () => {
   return (
-    <div className='relative'>
+    <div className='relative overflow-x-hidden'>
       <Navbar />
       <div className='w-full '>
         <Hero />

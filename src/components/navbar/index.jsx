@@ -32,12 +32,17 @@ const Navbar = () => {
         {/* GRADIENT */}
         {/* <div className="absolute z-[1] right-0 top-0 flex h-[33rem] w-[33rem] bg-gradient-radial from-gradient via-background to-background rounded-full"></div> */}
       </div>
-      <div className={`absolute ${openSmallNav? 'top-[100%] right-[.5rem] opacity-[100%] select-auto z-[50] visible' : 'top-[200%] right-0 opacity-0 select-none z-[-5] invisible'} lg:hidden flex flex-col items-center h-screen w-full gap-[2.125rem] xl:gap-[2.8125rem] pt-[12rem] bg-background px-[2rem] py-[3.5rem] rounded-[16px] transition-all ease-in-out duration-200 `}>
+      <div className={`absolute ${openSmallNav? 'top-[100%] right-0 opacity-[100%] select-auto z-[50] visible' : 'top-[200%] right-[.5rem] opacity-0 select-none z-[-5] invisible'} lg:hidden flex flex-col items-center h-screen w-full gap-[2.125rem] xl:gap-[2.8125rem] pt-[12rem] bg-background px-[2rem] py-[3.5rem] transition-all ease-in-out duration-200 overflow-hidden`}>
         <Link to='home' offset={-80} className={nav_link}>Home</Link>
         <Link to='joinus' offset={-80} className={nav_link}>Join Us</Link>
         <Link to='roadmap' offset={-80} className={nav_link}>Roadmap</Link>
         <Link to='tokenomic' offset={-80} className={nav_link}>Tokenomics</Link>
         <Link to='oct-app' className={nav_link}>OCT APP</Link>
+        <div className='absolute z-[-1] top-0 left-0 flex h-full w-full'>
+          <div className="relative w-full h-full ">
+            <div className="absolute left-[-5rem] top-[-8rem] flex h-[15rem] w-[15rem] blur-3xl bg-gradient-radial from-[#2A2BB9] via-background to-background rounded-full"></div>
+          </div>
+        </div>
       </div>
     </div>
   )
