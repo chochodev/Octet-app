@@ -12,10 +12,10 @@ const Navbar = () => {
       <div className='relative z-[50] flex items-center justify-end lg:justify-center gap-[5rem] lg:gap-[20%] w-full py-[1.25rem] sm:py-[2rem] px-[5%] lg:px-[5rem] xl:px-[7.5rem]'>
         <img src='./assets/images/logo.png' alt='LOGO' className='absolute left-[5%] xl:left-[7.5%] h-[5rem] w-[5rem] object-cover select-none' />
         <div className="hidden lg:flex justify-evenly w-[50%] min-w-[40rem] lg:min-w-[45rem] px-0 xl:px-[.5rem] py-[1rem] rounded-[6.25rem] border-solid border-white border-[1px]">
-          <Link to='home' className={nav_link}>Home</Link>
-          <Link to='joinus' className={nav_link}>Join Us</Link>
-          <Link to='roadmap' className={nav_link}>Roadmap</Link>
-          <Link to='tokenomic' className={nav_link}>Tokenomics</Link>
+          <Link to='home' offset={-80} className={nav_link}>Home</Link>
+          <Link to='joinus' offset={-80} className={nav_link}>Join Us</Link>
+          <Link to='roadmap' offset={-80} className={nav_link}>Roadmap</Link>
+          <Link to='tokenomic' offset={-80} className={nav_link}>Tokenomics</Link>
           <Link to='oct-app' className={nav_link}>OCT APP</Link>
         </div>
         <button onClick={()=>setOpenSmallNav(!openSmallNav)} className='lg:hidden'>
@@ -26,10 +26,10 @@ const Navbar = () => {
         </button>
       </div>
       <div className={`absolute ${openSmallNav? 'top-[100%] right-[.5rem] opacity-[100%] select-auto z-[50] visible' : 'top-[200%] right-0 opacity-0 select-none z-[-5] invisible'} lg:hidden flex flex-col items-center h-screen w-full gap-[2.125rem] xl:gap-[2.8125rem] pt-[12rem] bg-background px-[2rem] py-[3.5rem] rounded-[16px] transition-all ease-in-out duration-200 `}>
-        <Link to='home' className={nav_link}>Home</Link>
-        <Link to='joinus' className={nav_link}>Join Us</Link>
-        <Link to='roadmap' className={nav_link}>Roadmap</Link>
-        <Link to='tokenomic' className={nav_link}>Tokenomics</Link>
+        <Link to='home' offset={-80} className={nav_link}>Home</Link>
+        <Link to='joinus' offset={-80} className={nav_link}>Join Us</Link>
+        <Link to='roadmap' offset={-80} className={nav_link}>Roadmap</Link>
+        <Link to='tokenomic' offset={-80} className={nav_link}>Tokenomics</Link>
         <Link to='oct-app' className={nav_link}>OCT APP</Link>
       </div>
     </div>
