@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col md:flex-row gap-y-[2rem] justify-center md:justify-evenly items-center min-h-[10.5rem] w-full p-[6%]'>
+    <div className='relative z-[2] flex flex-col md:flex-row gap-y-[2rem] justify-center md:justify-evenly items-center min-h-[10.5rem] w-full p-[6%]'>
       <div className='flex flex-1 items-center gap-[2%] md:gap-[5%] justify-center w-full'>
         <Link to='home' className='text-[.75rem] md:text-[1rem] hover:text-secondary active:text-secondary-dim transition-all duration-200 ease-in-out'>Home</Link>
         <Link to='joinus' offset={-80} className='text-[.75rem] md:text-[1rem] hover:text-secondary active:text-secondary-dim transition-all duration-200 ease-in-out'>Join Us</Link>
