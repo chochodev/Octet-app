@@ -16,7 +16,7 @@ const Hero = () => {
           <Link to='whitepaper' className='relative flex items-center justify-center text-[.875rem] sm:text-[1.15rem] md:text-[1.25rem] px-[2.25rem] h-[2.5rem] sm:h-[3rem] md:h-[3.875rem] underline underline-offset-2 decoration-[2px] hover:decoration-secondary active:text-secondary transition-all duration-250 ease-in-out'>Whitepaper</Link>
         </div>
       </div>
-      <img src="./assets/images/hero-image-1.png" alt="HERO" className='xl:absolute z-[1] right-0 h-auto xl:h-[30.25rem] w-[90%] xl:w-[30.25rem] max-w-[40rem] object-cover' />
+      <img src="./assets/images/hero-image-1.png" alt="HERO" className='xl:absolute z-[1] right-[8%] h-auto xl:h-[30.25rem] w-[90%] xl:w-[30.25rem] max-w-[40rem] object-cover' />
       <div className="flex flex-col justify-center items-center gap-[2rem] w-full mt-[3.8125rem]">
         <h2 className='text-[2rem] font-semibold'>Our Partners</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[2.5rem]">
