@@ -39,7 +39,7 @@ const Roadmap = (props) => {
 
         {items.map((item, index) => {
           return (
-            <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] bg-white/10 max-w-[32.8125rem] p-[2.5rem] rounded-[2rem] ">
+            <div key={index} className="flex flex-col justify-self-center gap-[1.5rem] bg-white/10 max-w-[32.8125rem] p-[1.25rem] md:p-[2.5rem] rounded-[2rem] ">
               <h2 className='text-[1.5rem] sm:text-[1.875rem] xl:text-[2rem] font-bold '>{item.title}</h2>
               <p className="text-[1.05rem] xl:text-[1.5rem] " dangerouslySetInnerHTML={{ __html: item.text }} />
             </div>

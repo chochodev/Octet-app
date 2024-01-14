@@ -7,18 +7,18 @@ const OctetApp = () => {
     <div className={`relative flex flex-col lg:flex-row gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
       <div className="flex flex-col gap-[4rem] w-full max-w-[36.875rem]">
         <div>
-          <h2 className='text-[3.375rem] font-bold text-secondary'>OCTET APP</h2>
-          <p className="text-[3.375rem] ">Join the upcoming octet App to enjoy future amazing offers.</p>
-          <p className="text-[1.25rem]">Octet tokens can be sent, swapped, and stored freely in the app. Don't miss the golden event where you can use Octet tokens. It's going to be released soon.</p>
+          <h2 className='text-[2.25rem] md:text-[2.875rem] lg:text-[3.375rem] font-bold text-secondary'>OCTET APP</h2>
+          <p className="text-[2.25rem] md:text-[2.875rem] lg:text-[3.375rem] ">Join the upcoming octet App to enjoy future amazing offers.</p>
+          <p className="text-[.875rem] sm:text-[1.25rem] mt-[1.5rem]">Octet tokens can be sent, swapped, and stored freely in the app. Don't miss the golden event where you can use Octet tokens. It's going to be released soon.</p>
         </div>
-        <div className="flex justify-evenly w-full">
+        <div className="flex flex-col md:flex-row gap-y-[2rem] justify-evenly w-full">
           <div className="flex flex-col text-center">
-            <h2 className='text-[2rem]'>87%</h2>
-            <p className="text-[1.5rem]">current status until release</p>
+            <h2 className='text-[1.5rem] lg:text-[2rem]'>87%</h2>
+            <p className="text-[1.05rem] lg:text-[1.5rem]">current status until release</p>
           </div>
           <div className="flex flex-col text-center">
-            <h2 className='text-[2rem]'>25k</h2>
-            <p className="text-[1.5rem]">our App pre-bookers</p>
+            <h2 className='text-[1.5rem] lg:text-[2rem]'>25k</h2>
+            <p className="text-[1.05rem] lg:text-[1.5rem]">our App pre-bookers</p>
           </div>
         </div>
       </div>
