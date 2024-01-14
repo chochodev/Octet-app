@@ -26,6 +26,13 @@ const Hero = () => {
           <img src="./assets/images/partner-4.png" alt="Partner" className='h-[5rem] w-[14.2925rem] rounded-[16px] object-cover' />
         </div>
       </div>
+
+      {/* GRADIENT COLORS */}
+      <div className='absolute top-0 left-0 flex h-full w-full'>
+        <div className="relative w-full h-full ">
+          <div className="absolute left-[-20rem] top-[-25rem] flex h-[55rem] w-[55rem] blur-3xl bg-gradient-radial from-[#2A2BB9] via-background to-background rounded-full"></div>
+        </div>
+      </div>
     </div>
   )
 }

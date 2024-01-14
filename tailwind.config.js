@@ -9,6 +9,9 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif']
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       }
     },
     colors: {
@@ -19,6 +22,8 @@ module.exports = {
       'secondary': '#BD34CF',
       'secondary-dim': '#A648FE',
       'secondary-dark': '#072C0D',
+
+      'gradient': '#852169',
 
       'tertiary': '#FF4136',
       'tertiary2': '#AAAAAA',
