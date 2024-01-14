@@ -29,7 +29,7 @@ const Roadmap = (props) => {
   return (
     <div id='roadmap' className={`relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
       <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>{props.title}</h2>
-      <div className="grid lg:grid-cols-2 justify-evenly gap-y-[2rem] gap-[5%] w-full">
+      <div className="relative z-[2] grid lg:grid-cols-2 justify-evenly gap-y-[2rem] gap-[5%] w-full">
         <div className="relative flex flex-col justify-self-center gap-[1.5rem] bg-white/10 max-w-[32.8125rem] p-[1.25rem] md:p-[2.5rem] rounded-[2rem] ">
           <h2 className='text-[1.5rem] sm:text-[1.875rem] xl:text-[2rem] font-bold '>Decentralized Security Backbone</h2>
           <p className="text-[1.05rem] xl:text-[1.5rem] ">The OCT chain serves as the decentralized backbone of the OCTET ecosystem, reducing reliance on centralized entities. This commitment to decentralization enhances security by minimizing the risk of single points of failure and fostering a distributed and resilient cyber security infrastructure.</p>
@@ -46,8 +46,21 @@ const Roadmap = (props) => {
           )
         })}
       </div>
+
+      {/* GRADIENT COLORS */}
+      <div className='absolute top-0 left-0 flex h-full w-full'>
+        <div className="flex justify-between w-full h-full ">
+          <div className="transform translate-y-[25%] xl:translate-y-[15%] translate-x-[55%] h-[40%] xl:h-[80%] w-[100vw] bg-gradient-radial blur-3xl from-gradient/70 via-gradient/20 to-background"></div>
+        </div>
+      </div>
+
+      {/* STAR EFFECTS */}
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute z-[3] top-[10%] lg:top-[15%] left-[1%] lg:left-[47%] h-[1.5rem] w-[1.5rem] object-contain' />
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute z-[3] bottom-[8%] left-[5%] lg:bottom-[15%] lg:left-[50%] h-[1.5rem] w-[1.5rem] object-contain' />
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute z-[3] bottom-[30%] lg:bottom-[30%] left-[70%] h-[1.5rem] w-[1.5rem] object-contain' />
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute z-[3] top-[30%] lg:top-[40%] right-[5%] h-[1.5rem] w-[1.5rem] object-contain' />
     </div>
-  )
+  );
 }
 
 Roadmap.defaultProps = {

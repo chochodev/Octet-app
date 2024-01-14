@@ -52,7 +52,7 @@ const JoinUs = (props) => {
 
       {/* GRADIENT COLORS */}
       <div className='absolute top-0 left-0 flex h-full w-full'>
-        <div className="flex overflow-hidden justify-between w-full h-full ">
+        <div className="flex justify-between w-full h-full ">
           <div className="transform translate-y-[35%] translate-x-[-35%] h-auto w-[100vw] blur-3xl bg-gradient-radial from-[#2A2BB9] via-background to-background"></div>
         </div>
       </div>
