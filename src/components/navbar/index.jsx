@@ -13,12 +13,12 @@ const Navbar = () => {
   return (
     <div className='fixed z-[50] top-0 left-0 h-max w-full bg-background'>
       <div 
-        className='relative z-[50] flex items-center justify-end lg:justify-center gap-[5rem] lg:gap-[20%] w-full py-[1.25rem] sm:py-[2rem] px-[5%] lg:px-[5rem] xl:px-[7.5rem]' 
+        className='relative z-[50] flex items-center justify-end lg:justify-center gap-[5rem] lg:gap-[20%] w-full py-[1rem] sm:py-[2rem] px-[5%] lg:px-[5rem] xl:px-[7.5rem]' 
         style={{
           background: 'linear-gradient(to right, #2A2BB9aa 0%, transparent 35%, transparent 65%, #852169aa 100%)'
         }}
       >
-        <img src='./assets/images/logo.png' alt='LOGO' className='absolute left-[5%] xl:left-[7.5%] h-[5rem] w-[5rem] object-cover select-none' />
+        <img src='./assets/images/logo.png' alt='LOGO' className='absolute left-[5%] xl:left-[7.5%] h-[3.875rem] sm:h-[5rem] w-[3.875rem] sm:w-[5rem] object-cover select-none' />
         <div className="hidden lg:flex justify-evenly w-[50%] min-w-[40rem] lg:min-w-[45rem] px-0 xl:px-[.5rem] py-[1rem] rounded-[6.25rem] border-solid border-white border-[1px]">
           <Link to='home' offset={-80} className={nav_link}>Home</Link>
           <Link to='joinus' offset={-80} className={nav_link}>Join Us</Link>
