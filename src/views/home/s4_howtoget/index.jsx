@@ -24,7 +24,7 @@ const HowToGet = () => {
 
   return (
     <div id='howtoget' className={`relative pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
-      <div className="flex flex-col items-center gap-[4rem] md:gap-[6.25rem] w-full rounded-[32px] border-solid border-[1px] border-secondary-dim py-[4rem] px-[5%] md:px-[15%] ">
+      <div className="relative z-[2] flex flex-col items-center gap-[4rem] md:gap-[6.25rem] w-full rounded-[32px] bg-background border-solid border-[1px] border-secondary-dim py-[4rem] px-[5%] md:px-[15%] ">
         <h2 className='relative z-[2] text-[1.5rem] sm:text-[2rem] md:text-[3rem] text-center font-bold'>Here is how to <span className='text-secondary-dim'>OCTET</span> circulates</h2>
         <div className="grid lg:grid-cols-2 lg:justify-evenly gap-y-[3rem] gap-[5%] w-full">
           {items.map((item, index) => {
@@ -38,6 +38,11 @@ const HowToGet = () => {
             )
           })}
         </div>
+      </div>
+
+      {/* GRADIENT COLORS */}
+      <div className='absolute top-0 left-0 flex h-full w-full'>
+        <div className="transform translate-y-[25%] h-[40%] xl:h-[100%] w-[100vw] bg-gradient-to-b blur-3xl from-[#00000000] via-[#2A2BB9]/50 to-background"></div>
       </div>
     </div>
   )
