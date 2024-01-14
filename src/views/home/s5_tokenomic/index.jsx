@@ -35,7 +35,7 @@ const Tokenomic = () => {
   ]
 
   return (
-    <div className={`relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
+    <div id='tokenomic' className={`relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
       <h2 className='relative z-[2] text-[2rem] md:text-[3rem] font-bold'>Tokenomics</h2>
       <div className="flex w-full flex-col xl:flex-row items-center">
         <img src="./assets/images/chart.png" alt="TOKENOMIC CHART" className='min-w-[50%] object-contain' />
