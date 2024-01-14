@@ -42,22 +42,22 @@ const Tokenomic = () => {
         <div className="flex flex-col items-center gap-[1.5rem] max-w-[55rem] w-full xl:w-[50%]">
           <div className='flex flex-col gap-[0.75rem] w-full max-w-[36.75rem] rounded-[16px] p-[1rem] border-solid border-[2px] border-secondary'>
             <div className='grid grid-cols-2 items-center'>
-              <h2 className='text-[1rem] sm:text-[1.5rem] xl:text-[2rem]'>Token Name:</h2>
-              <p className='text-[.875rem] sm:text-[1rem] xl:text-[1.5rem]'>Octet</p>
+              <h2 className='text-[.875rem] sm:text-[1.375rem] xl:text-[1.875rem]'>Token Name:</h2>
+              <p className='text-[.75rem] sm:text-[.875rem] xl:text-[1.25rem]'>Octet</p>
             </div>
             <div className='grid grid-cols-2 items-center'>
-              <h2 className='text-[1rem] sm:text-[1.5rem] xl:text-[2rem]'>Token Symbol:</h2>
-              <p className='text-[.875rem] sm:text-[1rem] xl:text-[1.5rem]'>OCT</p>
+              <h2 className='text-[.875rem] sm:text-[1.375rem] xl:text-[1.875rem]'>Token Symbol:</h2>
+              <p className='text-[.75rem] sm:text-[.875rem] xl:text-[1.25rem]'>OCT</p>
             </div>
           </div>
           <div className='flex flex-col gap-[0.75rem] w-full max-w-[36.75rem] rounded-[16px] p-[1rem] border-solid border-[2px] border-secondary'>
             <div className='grid grid-cols-2 items-center'>
-              <h2 className='text-[1rem] sm:text-[1.5rem] xl:text-[2rem]'>Chain:</h2>
-              <p className='text-[.875rem] sm:text-[1rem] xl:text-[1.5rem]'>Ethereum request for comment 20.</p>
+              <h2 className='text-[.875rem] sm:text-[1.375rem] xl:text-[1.875rem]'>Chain:</h2>
+              <p className='text-[.75rem] sm:text-[.875rem] xl:text-[1.25rem]'>Ethereum request for comment 20.</p>
             </div>
             <div className='grid grid-cols-2 items-center'>
-              <h2 className='text-[1rem] sm:text-[1.5rem] xl:text-[2rem]'>Coin issued:</h2>
-              <p className='text-[.875rem] sm:text-[1rem] xl:text-[1.5rem]'>2,147,483,647</p>
+              <h2 className='text-[.875rem] sm:text-[1.375rem] xl:text-[1.875rem]'>Coin issued:</h2>
+              <p className='text-[.75rem] sm:text-[.875rem] xl:text-[1.25rem]'>2,147,483,647</p>
             </div>
           </div>
 
@@ -65,8 +65,8 @@ const Tokenomic = () => {
           <div className='flex flex-col gap-[0.75rem] w-full max-w-[36.75rem] rounded-[16px] p-[1rem] border-solid border-[2px] border-secondary'>
             {items.map((item, index) => (
             <div className='grid grid-cols-2 items-center'>
-              <h2 className='text-[1rem] sm:text-[1.5rem] xl:text-[2rem]'>{item.name}:</h2>
-              <p className='text-[.875rem] sm:text-[1rem] xl:text-[1.5rem]'>{item.text}</p>
+              <h2 className='text-[.875rem] sm:text-[1.375rem] xl:text-[1.875rem]'>{item.name}:</h2>
+              <p className='text-[.75rem] sm:text-[.875rem] xl:text-[1.25rem]'>{item.text}</p>
             </div>
             ))}
           </div>
