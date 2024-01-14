@@ -4,7 +4,7 @@ const OctetApp = () => {
   const padding_style = 'px-[1.25rem] sm:px-[2.5rem] md:px-[3.5rem] lg:px-[3.5rem] xl:px-[5rem] 2xl:px-[7.5rem]';
 
   return (
-    <div id='octetapp' className={`relative flex flex-col lg:flex-row gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
+    <div id='oct-app' className={`relative flex flex-col lg:flex-row gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style} `}>
       <div className="flex flex-col gap-[4rem] w-full max-w-[36.875rem]">
         <div>
           <h2 className='text-[2.25rem] md:text-[2.875rem] lg:text-[3.375rem] font-bold text-secondary'>OCTET APP</h2>
