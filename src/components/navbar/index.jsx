@@ -29,8 +29,6 @@ const Navbar = () => {
             : <RiCloseFill  className='bg-tertiary2/10 hover:bg-tertiary2/20 rounded-[8px] p-[.45rem] text-tertiary2 active:text-[#ffffff] text-[2.75rem] transition-all ease-in-out duration-200 ' />
           }
         </button>
-        {/* GRADIENT */}
-        {/* <div className="absolute z-[1] right-0 top-0 flex h-[33rem] w-[33rem] bg-gradient-radial from-gradient via-background to-background rounded-full"></div> */}
       </div>
       <div className={`absolute ${openSmallNav? 'top-[100%] right-0 opacity-[100%] select-auto z-[50] visible' : 'top-[200%] right-[.5rem] opacity-0 select-none z-[-5] invisible'} lg:hidden flex flex-col items-center h-screen w-full gap-[2.125rem] xl:gap-[2.8125rem] pt-[12rem] bg-background px-[2rem] py-[3.5rem] transition-all ease-in-out duration-200 overflow-hidden`}>
         <Link to='home' offset={-80} className={nav_link}>Home</Link>

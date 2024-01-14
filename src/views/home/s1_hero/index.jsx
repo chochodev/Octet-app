@@ -46,6 +46,11 @@ const Hero = () => {
       {/* BALL EFFECTS */}
       <img src='./assets/svg/ball.svg' alt='BALL' className='absolute bottom-[70%] xl:bottom-[40%] right-[10%] xl:right-[40%] h-[4.25rem] md:h-[6.25rem] w-[4.25rem] md:w-[6.25rem] object-contain' />
       <img src='./assets/svg/ball.svg' alt='BALL' className='absolute bottom-[80%] xl:bottom-[51%] right-[20%] left-[1%] h-[2rem] md:h-[2.5rem] w-[2rem] md:w-[2.5rem] object-contain' />
+
+      {/* STAR EFFECTS */}
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute bottom-[10%] xl:bottom-[2%] left-[1%] xl:left-[1%] h-[1.5rem] w-[1.5rem] object-contain' />
+      <img src='./assets/svg/star.svg' alt='STAR' className='absolute z-[2] bottom-[30%] xl:bottom-[40%] left-[75%] h-[1.5rem] w-[1.5rem] object-contain' />
+
     </div>
   )
 }
