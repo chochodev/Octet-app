@@ -5,7 +5,7 @@ const Hero = () => {
   const padding_style = 'px-[1.25rem] sm:px-[2.5rem] md:px-[3.5rem] lg:px-[3.5rem] xl:px-[5rem] 2xl:px-[7.5rem]';
   const join_community = 'relative flex items-center justify-center text-[.875rem] sm:text-[1.15rem] md:text-[1.25rem] w-[10rem] md:w-[15.4375rem] h-[2.5rem] sm:h-[3rem] md:h-[3.875rem] rounded-[8px] bg-secondary before:border-solid before:border-secondary before:border-[1px] before:content-[""] before:absolute before:z-[10] before:top-[4px] before:left-[4px] before:w-full before:h-full before:rounded-[8px] before:bg-none hover:bg-secondary-light hover:before:border-secondary-light active:text-background transition-all duration-250 ease-in-out '
   return (
-    <div id='home' className={`relative flex flex-col gap-[4rem] items-center pt-[3rem] sm:pt-[4rem] md:pt-[5rem] w-full min-h-[50rem] ${padding_style}`}>
+    <div id='home' className={`relative flex flex-col gap-[4rem] items-center pt-[8rem] sm:pt-[9rem] md:pt-[12rem] lg:pt-[15rem] w-full min-h-[50rem] ${padding_style}`}>
       <div className="relative z-[2] flex flex-col gap-[2rem] items-center xl:items-start w-full">
         <div className="flex flex-col w-full xl:max-w-[46rem] gap-[2rem]">
           <h1 className='text-[1.875rem] sm:text-[2.25rem] md:text-[3.375rem] font-bold uppercase'>We are moving around the world with the <span className='text-secondary'>OCTET</span> project at the forefront to detect malicious code.</h1>
@@ -29,9 +29,10 @@ const Hero = () => {
 
       {/* GRADIENT COLORS */}
       <div className='absolute top-0 left-0 flex h-full w-full'>
-        <div className="relative w-full h-full ">
-          <div className="absolute left-[-20rem] top-[-25rem] flex h-[55rem] w-[55rem] blur-3xl bg-gradient-radial from-[#2A2BB9] via-background to-background rounded-full"></div>
+        <div className="flex overflow-hidden justify-between w-full h-full ">
+          <div className="transform translate-y-[-20%] translate-x-[-35%] h-[50rem] w-[50rem] blur-3xl bg-gradient-radial from-[#2A2BB9] via-background to-background rounded-full"></div>
         </div>
+        <div className="transform translate-y-[-25%] translate-x-[35%] h-[50rem] w-[50rem] bg-gradient-radial blur-3xl from-gradient/70 via-gradient/20 to-background rounded-full"></div>
       </div>
     </div>
   )

@@ -10,7 +10,7 @@ import OctetApp from './s6_octetapp';
 
 const Home = () => {
   return (
-    <div className='relative overflow-x-hidden'>
+    <div className='relative h-full overflow-hidden'>
       <Navbar />
       <div className='w-full '>
         <Hero />
@@ -21,13 +21,6 @@ const Home = () => {
         <OctetApp />
       </div>
       <Footer />
-
-      <div className='absolute top-0 left-0 flex h-full w-full'>
-        <div className="relative w-full h-full ">
-          <div className="absolute right-[-25rem] top-[-15rem] flex h-[55rem] w-[55rem] bg-gradient-radial blur-3xl from-gradient/70 via-gradient/20 to-background rounded-full"></div>
-          <div className="absolute right-[-25rem] top-[-15rem] flex h-[55rem] w-[55rem] bg-[#2A2BB9]-radial blur-3xl from-[#2A2BB9]/70 via-[#2A2BB9]/20 to-background rounded-full"></div>
-        </div>
-      </div>
     </div>
   )
 }
