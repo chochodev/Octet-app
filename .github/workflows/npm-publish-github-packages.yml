@@ -19,7 +19,7 @@ jobs:
 
   publish-gpr:
     needs: build
-    runs-on: self-host
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
