@@ -64,7 +64,7 @@ const Tokenomic = () => {
           
           <div className='flex flex-col gap-[0.75rem] w-full max-w-[36.75rem] rounded-[16px] p-[1rem] border-solid border-[2px] border-secondary'>
             {items.map((item, index) => (
-            <div className='grid grid-cols-2 items-center'>
+            <div key={index} className='grid grid-cols-2 items-center'>
               <h2 className='text-[.875rem] sm:text-[1.375rem] xl:text-[1.875rem]'>{item.name}:</h2>
               <p className='text-[.75rem] sm:text-[.875rem] xl:text-[1.25rem]'>{item.text}</p>
             </div>
