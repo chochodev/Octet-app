@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c0c4d1c.css",
+    "main.js": "/static/js/main.d4b68e11.js",
+    "static/media/CircularStd-Black.woff2": "/static/media/CircularStd-Black.00cb4881193e9281e57a.woff2",
+    "index.html": "/index.html",
+    "main.6c0c4d1c.css.map": "/static/css/main.6c0c4d1c.css.map",
+    "main.d4b68e11.js.map": "/static/js/main.d4b68e11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c0c4d1c.css",
+    "static/js/main.d4b68e11.js"
+  ]
+}
