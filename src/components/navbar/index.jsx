@@ -19,7 +19,7 @@ const Navbar = () => {
         }}
       >
         <img src='./assets/images/logo.png' alt='LOGO' className='absolute left-[5%] xl:left-[7.5%] h-[3.875rem] sm:h-[5rem] w-[3.875rem] sm:w-[5rem] object-cover select-none' />
-        <div className="hidden lg:flex justify-evenly w-[50%] min-w-[40rem] lg:min-w-[45rem] px-0 xl:px-[.5rem] py-[1rem] rounded-[6.25rem] border-solid border-white border-[1px]">
+        <div className="hidden lg:flex justify-evenly w-[50%] min-w-[40rem] lg:min-w-[45rem] px-0 xl:px-[.5rem] py-[1rem] rounded-[6.25rem] ">
           <Link to='home' offset={-80} className={nav_link}>Home</Link>
           <Link to='joinus' offset={-80} className={nav_link}>Join Us</Link>
           <Link to='roadmap' offset={-80} className={nav_link}>Roadmap</Link>

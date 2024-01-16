@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import { RiGithubLine } from 'react-icons/ri';
 
 const Footer = () => {
   return (
@@ -12,13 +13,14 @@ const Footer = () => {
         <Link to='oct-app' className='text-[.75rem] md:text-[1rem] hover:text-secondary active:text-secondary-dim transition-all duration-200 ease-in-out uppercase'>Oct App</Link>
       </div>
       <div className='flex gap-[15%] justify-center min-w-[30%]'>
-        <a href='#home'>
-          <img src="./assets/svg/telegram.svg" alt="TELEGRAM" className='w-[3rem] h-[3rem] object-contain' />
+        <a href='https://github.com/octetproject' target="_blank" rel='noopener noreferrer'>
+          {/* <img src="./assets/svg/telegram.svg" alt="TELEGRAM" className='w-[3rem] h-[3rem] object-contain' /> */}
+          <RiGithubLine className='w-[3rem] h-[3rem]' />
         </a>
-        <a href='#home'>
+        <a href='https://discord.gg/c3Jnn3QGB4' target="_blank" rel='noopener noreferrer'>
           <img src="./assets/svg/discord.svg" alt="DISCORD" className='w-[3rem] h-[3rem] object-contain' />
         </a>
-        <a href='#home'>
+        <a href='https://twitter.com/Official_Octet' target="_blank" rel='noopener noreferrer'>
           <img src="./assets/svg/x.svg" alt="X" className='w-[3rem] h-[3rem] object-contain' />
         </a>
       </div>
