@@ -13,13 +13,8 @@ const OctetApp = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-y-[2rem] justify-evenly w-full">
           <a href="#" target="_blank" className="flex flex-col text-center">
-            <h2 className='text-[1.5rem] lg:text-[2rem]'>87%</h2>
-            <p className="text-[1.05rem] lg:text-[1.5rem]">current status until release</p>
+            <img
           </a>
-          <div className="flex flex-col text-center">
-            <h2 className='text-[1.5rem] lg:text-[2rem]'>25k</h2>
-            <p className="text-[1.05rem] lg:text-[1.5rem]">our App pre-bookers</p>
-          </div>
         </div>
       </div>
       {/* SECTION IMAGE */}
