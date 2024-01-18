@@ -12,10 +12,10 @@ const OctetApp = () => {
           <p className="text-[.875rem] sm:text-[1.25rem] mt-[1.5rem]">Octet tokens can be sent, swapped, and stored freely in the app. Don't miss the golden event where you can use Octet tokens. It's going to be released soon.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-y-[2rem] justify-evenly w-full">
-          <a href="#" target="_blank" className="flex flex-col text-center hover:outline-solid hover:outline-secondary hover:outline-[2px] transition-all duration-200">
+          <a href="#" target="_blank" className="flex flex-col text-center hover:border-solid hover:border-secondary hover:border-[2px] transition-all duration-200">
             <img src="./assets/images/playstore.png" alt="PLAYSTORE" className="h-[6rem] w-auto object-contain rounded-[16px] " />
           </a>
-          <a href="#" target="_blank" className="flex flex-col text-center hover:outline-solid hover:outline-secondary hover:outline-[2px] transition-all duration-200">
+          <a href="#" target="_blank" className="flex flex-col text-center hover:border-solid hover:border-secondary hover:border-[2px] transition-all duration-200">
             <img src="./assets/images/appstore.png" alt="APPSTORE" className="h-[6rem] w-auto object-contain rounded-[16px] " />
           </a>
         </div>
