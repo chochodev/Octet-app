@@ -22,7 +22,8 @@ const OctetApp = () => {
           </div>
         </div>
       </div>
-      <img src="./assets/images/phone.png" alt="PHONE" className='relative z-[2] w-[50%] object-contain' />
+      {/* SECTION IMAGE */}
+      <img src="./assets/images/phone_1.png" alt="PHONE" className='relative z-[2] w-[50%] object-contain' />
       
       {/* GRADIENT COLORS */}
       <div className='absolute top-0 left-0 flex h-full w-full'>
