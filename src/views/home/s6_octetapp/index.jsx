@@ -12,10 +12,10 @@ const OctetApp = () => {
           <p className="text-[.875rem] sm:text-[1.25rem] mt-[1.5rem]">Octet tokens can be sent, swapped, and stored freely in the app. Don't miss the golden event where you can use Octet tokens. It's going to be released soon.</p>
         </div>
         <div className="flex flex-col sm:flex-row gap-y-[2rem] items-center justify-evenly w-full">
-          <a href="#" target="_blank" re className="hover:shadow-[0_0_15px_2px_rgba(255,255,255,1)] hover:shadow-secondary/50 rounded-[16px] transition-all duration-[.2s] ease-in-out">
+          <a href="/" target="_blank" rel="noopener noreferrer" className="hover:shadow-[0_0_15px_2px_rgba(255,255,255,1)] hover:shadow-secondary/50 rounded-[16px] transition-all duration-[.2s] ease-in-out">
             <img src="./assets/images/playstore.png" alt="PLAYSTORE" className="h-[4.5rem] sm:h-[4.5rem] md:h-[3.5rem] xl:h-[5rem] w-auto object-cover rounded-[16px] " />
           </a>
-          <a href="#" target="_blank" re className="hover:shadow-[0_0_15px_2px_rgba(255,255,255,1)] hover:shadow-secondary/50 rounded-[16px] transition-all duration-200">
+          <a href="/" target="_blank" rel="noopener noreferrer" className="hover:shadow-[0_0_15px_2px_rgba(255,255,255,1)] hover:shadow-secondary/50 rounded-[16px] transition-all duration-200">
             <img src="./assets/images/appstore.png" alt="APPSTORE" className="h-[4.5rem] sm:h-[4.5rem] md:h-[3.5rem] xl:h-[5rem] w-auto object-cover rounded-[16px] " />
           </a>
         </div>
