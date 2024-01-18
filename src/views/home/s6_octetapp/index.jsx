@@ -12,10 +12,10 @@ const OctetApp = () => {
           <p className="text-[.875rem] sm:text-[1.25rem] mt-[1.5rem]">Octet tokens can be sent, swapped, and stored freely in the app. Don't miss the golden event where you can use Octet tokens. It's going to be released soon.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-y-[2rem] justify-evenly w-full">
-          <div className="flex flex-col text-center">
+          <a href="#" target="_blank" className="flex flex-col text-center">
             <h2 className='text-[1.5rem] lg:text-[2rem]'>87%</h2>
             <p className="text-[1.05rem] lg:text-[1.5rem]">current status until release</p>
-          </div>
+          </a>
           <div className="flex flex-col text-center">
             <h2 className='text-[1.5rem] lg:text-[2rem]'>25k</h2>
             <p className="text-[1.05rem] lg:text-[1.5rem]">our App pre-bookers</p>
