@@ -13,7 +13,10 @@ const OctetApp = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-y-[2rem] justify-evenly w-full">
           <a href="#" target="_blank" className="flex flex-col text-center">
-            <img src="" alt="" className
+            <img src="./assets/images/playstore" alt="PLAYSTORE" className="h-[3.5rem] w-[10rem] object-contain rounded-[16px] " />
+          </a>
+          <a href="#" target="_blank" className="flex flex-col text-center">
+            <img src="./assets/images/appstore.png" alt="APPSTORE" className="h-[3.5rem] w-[10rem] object-contain rounded-[16px] " />
           </a>
         </div>
       </div>
