@@ -13,7 +13,7 @@ const OctetApp = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-y-[2rem] justify-evenly w-full">
           <a href="#" target="_blank" className="flex flex-col text-center">
-            <img
+            <img src="" alt="" className
           </a>
         </div>
       </div>
