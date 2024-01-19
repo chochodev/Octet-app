@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
         <div className="flex w-full xl:max-w-[46rem]">
           <a 
-            href='https:/t.me/octetproject' 
+            href='https://t.me/octetproject' 
             rel="noopener noreferrer" 
             target="_blank" 
             className={join_community}
