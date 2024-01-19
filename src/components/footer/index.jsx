@@ -13,17 +13,14 @@ const Footer = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className='flex gap-[10%] justify-center min-w-[30%]'>
-          <a href='https://drive.google.com/file/d/1oy1deS15Fd_Sp7D1_HaApYDG0YqYyi6E/view?usp=sharing' target="_blank" rel='noopener noreferrer'>
-            <img src="./assets/svg/pdf.svg" alt="X" className='w-[2.5rem] h-[2.5rem] object-contain' />
-          </a>
           <a href='https://github.com/octetproject' target="_blank" rel='noopener noreferrer'>
-            <img src="./assets/svg/github.svg" alt="TELEGRAM" className='w-[2.5rem] h-[2.5rem] object-contain' />
+            <img src="./assets/svg/github.svg" alt="TELEGRAM" className='w-[3rem] h-[3rem] object-contain' />
           </a>
           <a href='https://discord.gg/c3Jnn3QGB4' target="_blank" rel='noopener noreferrer'>
-            <img src="./assets/svg/discord.svg" alt="DISCORD" className='w-[2.5rem] h-[2.5rem] object-contain' />
+            <img src="./assets/svg/discord.svg" alt="DISCORD" className='w-[3rem] h-[3rem] object-contain' />
           </a>
           <a href='https://twitter.com/Official_Octet' target="_blank" rel='noopener noreferrer'>
-            <img src="./assets/svg/x.svg" alt="X" className='w-[2.5rem] h-[2.5rem] object-contain' />
+            <img src="./assets/svg/x.svg" alt="X" className='w-[3rem] h-[3rem] object-contain' />
           </a>
         </div>
         <div className='flex text-center items-center gap-[.5rem]'>
