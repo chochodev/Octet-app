@@ -18,7 +18,7 @@ const Hero = () => {
             target="_blank" 
             className={join_community}
           >
-              Join Community
+            Join Community
           </a>
           <a 
             href='https://drive.google.com/file/d/1oy1deS15Fd_Sp7D1_HaApYDG0YqYyi6E/view?usp=sharing' 
