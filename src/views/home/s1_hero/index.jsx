@@ -12,7 +12,9 @@ const Hero = () => {
           <p className='text-[.875rem] md:text-[1.25rem]'>Please contribute to the project by submitting malicious codes. And you can earn rewards.</p>
         </div>
         <div className="flex w-full xl:max-w-[46rem]">
-          <a href='https:/t.me/octetproject' rel="noopener noreferrer" target="_blank" className={join_community}>Join Community</a>
+          <a 
+            href='https:/t.me/octetproject' 
+            rel="noopener noreferrer" target="_blank" className={join_community}>Join Community</a>
           <a 
             href='https://drive.google.com/file/d/1oy1deS15Fd_Sp7D1_HaApYDG0YqYyi6E/view?usp=sharing' 
             rel="noopener noreferrer" 
