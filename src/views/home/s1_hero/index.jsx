@@ -12,12 +12,17 @@ const Hero = () => {
           <p className='text-[.875rem] md:text-[1.25rem]'>Please contribute to the project by submitting malicious codes. And you can earn rewards.</p>
         </div>
         <div className="flex w-full xl:max-w-[46rem]">
-          <Link to='https:/t.me/octetproject' className={join_community}>Join Community</Link>
-          <Link to='https://drive.google.com/file/d/1oy1deS15Fd_Sp7D1_HaApYDG0YqYyi6E/view?usp=sharing' className='relative flex items-center justify-center text-[.875rem] sm:text-[1.15rem] md:text-[1.25rem] px-[2.25rem] h-[2.5rem] sm:h-[3rem] md:h-[3.875rem] underline underline-offset-2 decoration-[2px] hover:decoration-secondary active:text-secondary transition-all duration-250 ease-in-out'>
+          <a href='https:/t.me/octetproject' rel="noopener noreferrer" target="_blank" className={join_community}>Join Community</a>
+          <a 
+            href='https://drive.google.com/file/d/1oy1deS15Fd_Sp7D1_HaApYDG0YqYyi6E/view?usp=sharing' 
+            rel="noopener noreferrer" 
+            target="_blank" 
+            className='relative flex items-center justify-center text-[.875rem] sm:text-[1.15rem] md:text-[1.25rem] px-[2.25rem] h-[2.5rem] sm:h-[3rem] md:h-[3.875rem] underline underline-offset-2 decoration-[2px] hover:decoration-secondary active:text-secondary transition-all duration-250 ease-in-out'
+          >
             Whitepaper
             {/* BALL EFFECT */}
             <img src='./assets/svg/ball.svg' alt='BALL' className='absolute transform translate-y-[.2rem] right-0 h-[2rem] w-[2rem] object-contain' />
-          </Link>
+          </a>
         </div>
       </div>
       <img src="./assets/images/hero-image-1.png" alt="HERO" className='xl:absolute z-[1] right-[8%] h-auto xl:h-[30.25rem] w-[90%] xl:w-[30.25rem] max-w-[40rem] object-cover' />
